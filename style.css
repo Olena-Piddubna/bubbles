@@ -1,0 +1,113 @@
+body{
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    background: url(img/bg.jpg) center no-repeat;
+    height: 100vh;
+    cursor: pointer;
+}
+.button{
+    width: 25%;
+    position: relative;
+    top: 70%;
+    display: block;
+    z-index: 100;
+}
+h1{
+    background: linear-gradient(153deg, rgba(28,156,248,1) 0%, rgba(53,211,196,1) 52%, rgba(197,231,104,1) 100%);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    cursor: pointer;
+   
+}
+h1:hover{
+    width: 70%;
+    border: 2px solid white;
+    transition: width 1s ease;
+    color: white;
+
+}
+h2{
+    background: linear-gradient(153deg, rgba(252,47,88,1) 0%, rgba(253,179,108,1) 52%, rgba(208,49,168,1) 100%);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    cursor: pointer;
+}
+h2:hover{
+    width: 70%;
+    transition: width 2s ease;
+    border: 2px solid white;
+    color: white;
+}
+h3{
+    background: linear-gradient(153deg, rgba(248,24,88,1) 0%, rgba(189,30,206,1) 52%, rgba(40,233,236,1) 100%);
+
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+h3:hover{
+    transition: width 2s ease;
+    border: 2px solid white;
+    color: white;
+}
+.bubble{
+    position: absolute;
+    transition: all 3s;
+    cursor: pointer;
+}
+.gone{
+    display: none;
+}
+.first-bubble{
+    top: 50%;
+    right: 70%;
+}   
+.second-bubble{
+    top: 20%;
+    right: 25%;
+}
+.third-bubble{
+    top: 44%;
+    right: 44%;
+}
+.forth-bubble{
+    top: 60%;
+    right: 61%;
+}
+.fifth-bubble{
+    top: 65%;
+    right: 15%;
+}
+.sixth-bubble{
+    top: 10%;
+    right: 70%;
+}
+.seventh-bubble{
+    top: 10%;
+    right: 5%;
+}
+.eighth-bubble{
+    top: 50%;
+    right: 50%;
+}
+.ninth-bubble{
+    top: 25%;
+    right: 85%;
+}
+.tenth-bubble{
+    top: 10%;
+    right: 50%;
+}
